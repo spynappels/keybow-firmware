@@ -13,7 +13,7 @@ function setup()
     keybow.set_pixel(4, 255, 255, 0) -- Yellow
     keybow.set_pixel(5, 255, 0, 0) -- Red
     keybow.set_pixel(6, 0, 255, 0) -- Green
-    keybow.set_pixel(7, 0, 255, 0) -- Green
+    keybow.set_pixel(7, 0, 0, 255) -- Blue
     keybow.set_pixel(8, 0, 255, 0) -- Green
     keybow.set_pixel(9, 0, 0, 255) -- Blue
     keybow.set_pixel(10, 0, 0, 255) -- Blue
