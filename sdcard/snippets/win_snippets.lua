@@ -80,8 +80,16 @@ function win_snippets.snap_left()
 	modifier(keybow.LEFT_ARROW, keybow.LEFT_META)
 end
 
+function win_snippets.snap_left_mon()
+	modifier(keybow.LEFT_ARROW, keybow.LEFT_META, keybow.LEFT_SHIFT)
+end
+
 function win_snippets.snap_right()
 	modifier(keybow.RIGHT_ARROW, keybow.LEFT_META)
+end
+
+function win_snippets.snap_right_mon()
+	modifier(keybow.RIGHT_ARROW, keybow.LEFT_META, keybow.LEFT_SHIFT)
 end
 
 function win_snippets.zoom_in()
@@ -104,6 +112,14 @@ function win_snippets.chrome_search(term)
     modifier("k", keybow.LEFT_CTRL)
     keybow.sleep(500)
     keybow.text(term)
+    keybow.sleep(500)
+    keybow.tap_enter()
+end
+
+function win_snippets.chrome_search_paste()
+    modifier("k", keybow.LEFT_CTRL)
+    keybow.sleep(500)
+    modifier("v", keybow.LEFT_CTRL)
     keybow.sleep(500)
     keybow.tap_enter()
 end
@@ -137,6 +153,10 @@ end
 
 function win_snippets.send_mail()
 	modifier("s", keybow.LEFT_ALT)
+end
+
+function win_snippets.reply_all_mail()
+	modifier("r", keybow.LEFT_CTRL, keybow.LEFT_SHIFT)
 end
 
 function win_snippets.reply_mail()
