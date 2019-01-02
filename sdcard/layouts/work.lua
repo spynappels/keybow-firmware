@@ -29,7 +29,7 @@ function handle_key_00(pressed)
 Thank you for contacting Imperva Support with this issue.
 My name is Stefan and I'll be assisting you.
 
-      ]])
+]])
   end
 end
 
@@ -39,7 +39,7 @@ function handle_key_01(pressed)
 
 Is there anything further we can help you with on this issue, or are you happy to close this ticket out?
 
-      ]])
+]])
   end
 end
 
@@ -50,7 +50,7 @@ function handle_key_02(pressed)
 As we have not had any further questions or comments from you on this issue, we'll go ahead and close it out by Close of Business today.
 If there is any further help we can give you on this, please do not hesitate to open a new ticket referencing this one.
 
-      ]])
+]])
   end
 end
 
@@ -67,7 +67,7 @@ function handle_key_04(pressed)
 Have you been able to collect and upload the information we requested in our last update?
 If there is an issue providing the requested information, would you consider closing this ticket out and opening a follow-up ticket once you are able to continue working this issue with us?
 
-      ]])
+]])
   end
 end
 
