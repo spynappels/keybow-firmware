@@ -68,6 +68,10 @@ function win_snippets.switch_app()
     modifier(keybow.TAB, keybow.LEFT_ALT)
 end
 
+function win_snippets.switch_app_rev()
+    modifier(keybow.TAB, keybow.LEFT_ALT, keybow.LEFT_SHIFT)
+end
+
 function win_snippets.desktop()
 	modifier("d", keybow.LEFT_META)
 end
