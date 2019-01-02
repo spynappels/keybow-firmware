@@ -117,6 +117,6 @@ end
 
 function handle_key_11(pressed)
   if pressed then
-    win_snippets.snap_right_mon()
+    win_snippets.switch_app_rev()
   end
 end
